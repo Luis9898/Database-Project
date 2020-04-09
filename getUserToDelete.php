@@ -23,7 +23,7 @@
 					echo "<br>" . "Profile ID: " . $row["Profile_ID"] . " -----Name: " . $row["Fname"] . " -----Last Name: " . $row["Lname"] . "<br>";
 				}
 			} else {
-				echo "No results bitch";
+				echo "No results";
 			}
 	    ?>
 </form>
