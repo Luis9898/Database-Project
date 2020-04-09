@@ -49,7 +49,7 @@ if($prof_result->num_rows>0)
 	}
 }
 else
-echo "No results bitch";
+echo "No results";
 echo "<h1> Page Results </h1>";
 if($page_result->num_rows>0)
 {
@@ -60,7 +60,7 @@ if($page_result->num_rows>0)
 	}
 }
 else
-echo "No results bitch";
+echo "No results";
 $mysqli->close();
 ?>
 </body>
